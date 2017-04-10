@@ -56,7 +56,7 @@
 			this.textBoxOutput.Name = "textBoxOutput";
 			this.textBoxOutput.ReadOnly = true;
 			this.textBoxOutput.Size = new System.Drawing.Size(328, 113);
-			this.textBoxOutput.TabIndex = 1;
+			this.textBoxOutput.TabIndex = 2;
 			// 
 			// label1
 			// 
@@ -122,7 +122,7 @@
 			this.buttonStart.Location = new System.Drawing.Point(201, 104);
 			this.buttonStart.Name = "buttonStart";
 			this.buttonStart.Size = new System.Drawing.Size(139, 29);
-			this.buttonStart.TabIndex = 4;
+			this.buttonStart.TabIndex = 1;
 			this.buttonStart.Text = "Закодировать";
 			this.buttonStart.UseVisualStyleBackColor = true;
 			this.buttonStart.Click += new System.EventHandler(this.buttonStart_Click);
