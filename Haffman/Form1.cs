@@ -59,7 +59,7 @@ namespace Haffman
 				sorter.Add(temp);
 			}
 			node tree = sorter.First();
-			if (tree.Weight == 1)
+			if (tree.Symbol != (char)0)
 				tree.Code = "0";
 
 			Dictionary<char, string> codes = new Dictionary<char, string>();
